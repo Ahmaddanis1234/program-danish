@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 90px;
+
+    background-color:  white;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;  
+}
+
+.right li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.right ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+.left h1 {
+    padding: 0px;
+    font-size: 20px;
+}
+
+.main{
+    margin: 10px 60px 0 60px;
+    height: 800px;
+    background-color: rgba(128, 128, 128, 0.596);
+    border-radius: 20px;
+
+    width: 90vw;  /* Lebar sesuai dengan lebar layar */
+    height: 90vh; /* Tinggi sesuai dengan tinggi layar */
+    display: flex;
+    justify-content: center; /* Konten di tengah secara horizontal */
+    align-items: center; /* Konten di tengah secara vertikal */
+    box-sizing: border-box; 
+}
+
+.main .square{
+    margin: 15px 15px;
+    background-color: bisque;
+}
+
+nav main{
+    border-radius: 30px;
+}
+
+p.round {
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+
+   a:link{
+        text-decoration: none;
+    }
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.round3 {
+  border: 2px solid  black;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.centered-input {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 16px;
+}
+
+.box1{
+    width: 600px;
+    size: 10px;
+    height: auto;
+    border-radius: 18px;
+    margin: 20px 0 0 50px;
+    padding: 0px 12px;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box2{
+    width: 600px;
+    size: 10px;
+    height: auto;
+    border-radius: 18px;
+    margin: 20px 0 0 50px;
+    padding: 0px 12px;
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box3{
+    width: 600px;
+    size: 10px;
+    height: auto;
+    border-radius: 18px;
+    margin: 20px 0 0 50px;
+    padding: 0px 12px;
+    position: absolute;
+    top: 80px;
+    left: -50px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
